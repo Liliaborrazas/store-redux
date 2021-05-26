@@ -20,6 +20,7 @@
 .item-image{
     width: 100%;
     height: 100%;
+    margin-left: 20px;
 }
 .item-container{
     border: 2px solid gray;
@@ -27,4 +28,8 @@
     margin: 15px;
     width: 200px;
     text-align: center;
+}
+.item-button-container{
+    display: flex;
+    justify-content: space-around;
 }

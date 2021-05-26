@@ -20,6 +20,7 @@ const getStore = async () => {
      return(
      <div className="container-list">
          <h1>Lis Store</h1>
+         <button>Añadir un nuevo producto</button>
          <ul className='shop-list'>{result?.map((li, index)=>{
              return(<ShopItem li={li} index={index} />)
          })}</ul>
